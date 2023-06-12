@@ -2,7 +2,6 @@ const Jimp = require('jimp');
 
 const resizedImage = async (imagePath,destinationPath,width,height) => {
     
-
     try {
         // Read the image from the given path
         const image = await Jimp.read(imagePath);
@@ -22,11 +21,7 @@ const resizedImage = async (imagePath,destinationPath,width,height) => {
         
     } catch (error) {
         console.log(error)
-    }
-    
-
-   
-    
+    }  
 }
 
 module.exports = resizedImage;
