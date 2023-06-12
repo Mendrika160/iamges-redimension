@@ -12,4 +12,7 @@ BONUS :
 -utilisez des test unitaires
 -Commentez bien votre code`  
 
-### utilise `yarn add` pour installer les dependances et `yarn dev` pour lancer le serveur  
+### utilise `yarn add` pour installer les dependances  
+### utilise cette commande pour executer le programme `./index.js 400*400 ./img ./destination`  
+### `yarn dev` pour lancer le serveur  
+
